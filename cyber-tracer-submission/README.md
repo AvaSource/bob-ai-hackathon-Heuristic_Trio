@@ -8,10 +8,10 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | TODO — your team name |
+| **Team Name** | Heuristic Trio |
 | **Track** | AI |
-| **Team Lead** | TODO — Name — email |
-| **Members** | TODO — Name 1, Name 2, Name 3 |
+| **Team Lead** | Kaavya Desai | avanco140@gmail.com |
+| **Members** | Lil Drashti, Kaavya Desai |
 
 ---
 
@@ -102,13 +102,14 @@ Open `http://localhost:8501` and click **📁 LOAD DEMO CASE**.
 
 ## 🖥️ Demo
 
-| Artifact | Link |
-|---|---|
-| 📹 Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
-| 🌐 Live Demo | [See demo/live-demo-url.txt](demo/live-demo-url.txt) |
-| 🖼️ Screenshots | [See demo/screenshots/](demo/screenshots/) |
-| 📄 Sample FIR Brief | [demo/sample-output/FIR_Case_Brief.pdf](demo/sample-output/FIR_Case_Brief.pdf) |
-| 📊 Presentation | [See presentation/](presentation/) |
+artifacts:
+  source_code: "."
+  setup_guide: "README.md"
+  architecture_doc: "README.md"
+  demo_video: "https://youtube.com" # Replace with your YouTube/Loom video link
+  live_demo: "http://localhost:8501" # Replace with your deployed URL or keep default
+  screenshots: "demo/screenshots/"
+  presentation: "presentation/"
 
 ---
 
