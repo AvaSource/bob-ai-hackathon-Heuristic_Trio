@@ -1,0 +1,11 @@
+location_id,city,state,country,latitude,longitude,location_type
+L001,Mumbai,Maharashtra,India,24.394268,72.300129,Case/Device
+L002,Pune,Maharashtra,India,20.750293,74.678529,Case/Device
+L003,Ahmedabad,Gujarat,India,25.364712,80.120394,Case/Device
+L004,Jamtara,Jharkhand,India,26.921796,73.043266,Case/Device
+L005,New Delhi,Delhi,India,22.219218,72.357567,Case/Device
+L006,Bengaluru,Karnataka,India,20.18638,78.064263,Case/Device
+L007,Hyderabad,Telangana,India,18.26536,74.386052,Case/Device
+L008,Kolkata,West Bengal,India,24.498844,78.539298,Case/Device
+L009,Jaipur,Rajasthan,India,20.204406,79.071188,Case/Device
+L010,Noida,Uttar Pradesh,India,26.094305,72.077985,Case/Device

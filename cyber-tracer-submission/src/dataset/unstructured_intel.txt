@@ -1,0 +1,15 @@
+FIELD INTELLIGENCE REPORT — JAMTARA CYBER FRAUD CELL
+Date: 12-Jan-2026 | Source: Undercover Operative DELTA-7
+
+Subject "Raju Mandal" (alias: KINGPIN_RAJU) operates a SIM-swap fraud ring based out of Jamtara, Jharkhand.
+He controls at least 4 mule bank accounts: ACC_1001, ACC_2002, ACC_3003, ACC_5005.
+
+Raju communicates via burner number 9876543210. He was observed directing mule "Bikash Soren" (9123456780)
+to collect OTPs from victims and trigger UPI transfers. Transactions consistently route through ACC_7007
+before splitting to multiple downstream mule accounts.
+
+Device with IMEI 734567890123456 and IMEI 978901234567890 were both registered to the same account ACC_7007,
+strongly indicating a SIM-swap operation. The SIM for 9876543210 was fraudulently ported on 2025-10-14.
+
+A second mule "Suman Das" (9234567891) is linked to ACC_4004 and receives proceeds via ACC_8008.
+Statutory intercept warrant recommended on all listed numbers under IT Act Sec 69.

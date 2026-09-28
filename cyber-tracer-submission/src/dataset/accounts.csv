@@ -1,0 +1,24 @@
+account_id,holder_name,role,bank,account_open_date,kyc_status
+KP-5021001209,Vikas Mahato,kingpin,SBI,2021-01-14,verified
+M-7743210056,Sanjay Mandal,mule,HDFC,2022-11-02,verified
+M-6612345098,Birendra Oraon,mule,HDFC,2022-11-05,verified
+M-8823401177,Kavita Devi,mule,ICICI,2022-12-10,verified
+M-9012347765,Munna Yadav,mule,ICICI,2022-12-11,verified
+V-1001,Ravi Prasad,victim,PNB,2018-03-01,verified
+V-1002,Sunita Kumari,victim,SBI,2016-07-19,verified
+V-1003,Anil Thakur,victim,Axis,2019-02-22,verified
+V-1004,Meena Devi,victim,BoB,2015-05-30,verified
+V-1005,Deepak Singh,victim,SBI,2017-09-11,verified
+V-1006,Rekha Mahto,victim,PNB,2020-01-08,verified
+V-1007,Suresh Oraon,victim,HDFC,2014-11-23,verified
+V-1008,Pooja Rani,victim,ICICI,2018-06-17,verified
+V-1009,Ajay Verma,victim,SBI,2013-08-04,verified
+V-1010,Kiran Devi,victim,BoB,2019-12-01,verified
+V-1011,Manoj Kumar,victim,Axis,2016-04-27,verified
+V-1012,Sarita Devi,victim,PNB,2021-03-15,verified
+V-1013,Rajesh Mandal,victim,SBI,2017-07-09,verified
+V-1014,Nisha Kumari,victim,HDFC,2020-10-05,verified
+V-1015,Bikash Oraon,victim,ICICI,2015-01-30,verified
+X-CRYPTO-9981,CoinVault Exchange Wallet,layering_node,Exchange,2020-01-01,unverified
+X-FOREX-4420,Al-Falah Forex Bureau Kolkata,layering_node,NBFC,2019-06-01,unverified
+V-1099,Pooja Sharma,noise_unrelated,SBI,2019-01-01,verified

@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Cyber Network Analyzer Security Incident Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; color: #1e293b; margin: 36px; line-height: 1.45; background-color: #ffffff; }
+        h1 { color: #075985; margin-bottom: 8px; }
+        h2 { border-bottom: 2px solid #0ea5e9; padding-bottom: 4px; color: #0369a1; margin-top: 24px; }
+        table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 13px; }
+        th, td { border: 1px solid #cbd5e1; padding: 8px; text-align: left; vertical-align: top; }
+        th { background: #e0f2fe; color: #0369a1; font-weight: bold; }
+        pre { white-space: pre-wrap; margin: 0; font-size: 11px; font-family: 'Courier New', Courier, monospace; background: #f8fafc; padding: 6px; border: 1px solid #e2e8f0; }
+        .meta { background: #f1f5f9; padding: 14px; border-left: 4px solid #0ea5e9; margin-bottom: 20px; }
+        .badge-high { color: #dc2626; font-weight: bold; }
+        .badge-medium { color: #d97706; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Cyber Network Analyzer<br>Security Incident & Statutory Brief Report</h1>
+    
+    <div class='meta'>
+        <b>Report ID:</b> RPT-E02E5EC5<br>
+        <b>Generated:</b> 2026-09-28 14:39:09<br>
+        <b>Case Reference:</b> CR-2026-JAMTARA-SIMSWAP-098<br>
+        <b>Primary Accused / Kingpin:</b> Accused Entity (CF007) (CF007)<br>
+        <b>Threat Score:</b> 100/100<br>
+        <b>Highest Observed Severity:</b> CRITICAL / HIGH<br>
+        <b>Total Defrauded Volume:</b> Rs. 31,886,000.00
+    </div>
+
+    <h2>Executive Summary</h2>
+    <p>The automated analysis recorded active fraudulent flows across the Jamtara SIM-swap network. Primary clearing bridge node <b>CF007</b> was identified via Betweenness Centrality (0.84) linked to mule sub-clusters (CF002, CF034, CF032, CF021, CF025). Immediate statutory action under IT Act Sections 66C/66D and IPC Sections 420/120B is recommended.</p>
+
+    <h2>Incident Summary</h2>
+    <table>
+        <tr>
+            <th>Incident ID</th>
+            <th>Title / Modus Operandi</th>
+            <th>Severity</th>
+            <th>First Seen</th>
+            <th>Last Seen</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>INC-SIMSWAP-01</td>
+            <td>Layered SIM-Swap & UPI Mule Laundering Ring</td>
+            <td><span class='badge-high'>HIGH</span></td>
+            <td>2026-09-28 14:39:09</td>
+            <td>2026-09-28 14:39:09</td>
+            <td>OPEN / ACTIVE</td>
+        </tr>
+        <tr>
+            <td>INC-HARDWARE-02</td>
+            <td>Dual IMEI Shared Hardware Terminal Activity</td>
+            <td><span class='badge-medium'>MEDIUM</span></td>
+            <td>2026-09-28 14:39:09</td>
+            <td>2026-09-28 14:39:09</td>
+            <td>INVESTIGATING</td>
+        </tr>
+    </table>
+
+    <h2>Alert Summary & Timeline</h2>
+    <table>
+        <tr>
+            <th>Timestamp</th>
+            <th>Severity</th>
+            <th>Alert Type</th>
+            <th>Source Node</th>
+            <th>Destination Node</th>
+            <th>Evidence Data</th>
+        </tr>
+        
+            <tr>
+                <td>2026-09-28 14:39:09</td>
+                <td><span style="color:#ef4444; font-weight:bold;">HIGH</span></td>
+                <td>SUSPICIOUS_MULE_TRANSFER</td>
+                <td>T00001</td>
+                <td>CF010</td>
+                <td><pre>{'source': 'T00001', 'destination': 'CF010', 'amount': 45000.0, 'type': 'TRANSFERRED'}</pre></td>
+            </tr>
+            
+            <tr>
+                <td>2026-09-28 14:39:09</td>
+                <td><span style="color:#ef4444; font-weight:bold;">HIGH</span></td>
+                <td>SUSPICIOUS_MULE_TRANSFER</td>
+                <td>T00002</td>
+                <td>CF014</td>
+                <td><pre>{'source': 'T00002', 'destination': 'CF014', 'amount': 250000.0, 'type': 'TRANSFERRED'}</pre></td>
+            </tr>
+            
+            <tr>
+                <td>2026-09-28 14:39:09</td>
+                <td><span style="color:#ef4444; font-weight:bold;">HIGH</span></td>
+                <td>SUSPICIOUS_MULE_TRANSFER</td>
+                <td>T00003</td>
+                <td>CF007</td>
+                <td><pre>{'source': 'T00003', 'destination': 'CF007', 'amount': 5000.0, 'type': 'TRANSFERRED'}</pre></td>
+            </tr>
+            
+            <tr>
+                <td>2026-09-28 14:39:09</td>
+                <td><span style="color:#ef4444; font-weight:bold;">HIGH</span></td>
+                <td>SUSPICIOUS_MULE_TRANSFER</td>
+                <td>T00004</td>
+                <td>CF004</td>
+                <td><pre>{'source': 'T00004', 'destination': 'CF004', 'amount': 7500.0, 'type': 'TRANSFERRED'}</pre></td>
+            </tr>
+            
+            <tr>
+                <td>2026-09-28 14:39:09</td>
+                <td><span style="color:#ef4444; font-weight:bold;">HIGH</span></td>
+                <td>SUSPICIOUS_MULE_TRANSFER</td>
+                <td>T00005</td>
+                <td>CF036</td>
+                <td><pre>{'source': 'T00005', 'destination': 'CF036', 'amount': 125000.0, 'type': 'TRANSFERRED'}</pre></td>
+            </tr>
+            
+            <tr>
+                <td>2026-09-28 14:39:09</td>
+                <td><span style="color:#ef4444; font-weight:bold;">HIGH</span></td>
+                <td>SUSPICIOUS_MULE_TRANSFER</td>
+                <td>T00006</td>
+                <td>CF019</td>
+                <td><pre>{'source': 'T00006', 'destination': 'CF019', 'amount': 7500.0, 'type': 'TRANSFERRED'}</pre></td>
+            </tr>
+            
+            <tr>
+                <td>2026-09-28 14:39:09</td>
+                <td><span style="color:#ef4444; font-weight:bold;">HIGH</span></td>
+                <td>SUSPICIOUS_MULE_TRANSFER</td>
+                <td>T00007</td>
+                <td>CF003</td>
+                <td><pre>{'source': 'T00007', 'destination': 'CF003', 'amount': 12000.0, 'type': 'TRANSFERRED'}</pre></td>
+            </tr>
+            
+            <tr>
+                <td>2026-09-28 14:39:09</td>
+                <td><span style="color:#ef4444; font-weight:bold;">HIGH</span></td>
+                <td>SUSPICIOUS_MULE_TRANSFER</td>
+                <td>T00008</td>
+                <td>CF032</td>
+                <td><pre>{'source': 'T00008', 'destination': 'CF032', 'amount': 25000.0, 'type': 'TRANSFERRED'}</pre></td>
+            </tr>
+            
+            <tr>
+                <td>2026-09-28 14:39:09</td>
+                <td><span style="color:#ef4444; font-weight:bold;">HIGH</span></td>
+                <td>SUSPICIOUS_MULE_TRANSFER</td>
+                <td>T00009</td>
+                <td>CF019</td>
+                <td><pre>{'source': 'T00009', 'destination': 'CF019', 'amount': 12000.0, 'type': 'TRANSFERRED'}</pre></td>
+            </tr>
+            
+            <tr>
+                <td>2026-09-28 14:39:09</td>
+                <td><span style="color:#ef4444; font-weight:bold;">HIGH</span></td>
+                <td>SUSPICIOUS_MULE_TRANSFER</td>
+                <td>T00010</td>
+                <td>CF013</td>
+                <td><pre>{'source': 'T00010', 'destination': 'CF013', 'amount': 125000.0, 'type': 'TRANSFERRED'}</pre></td>
+            </tr>
+            
+    </table>
+
+    <h2>Source Accounts / Entities</h2>
+    <p>T00414, C00267, T00090, T00124, T00164, D0068, C00070, T00296, T00468, T00091, T00102, C00056, C00073, C00288, T00317, T00179, T00139, C00295, C00007, D0090, T00065, T00096, T00119, T00241, C00166, T00236, D0100, D0027, D0066, C00048, T00041, T00424, C00141, C00195, C00005, T00441, C00032, C00245, T00410, T00361, T00175, T00329, T00010, C00173, T00465, T00021, T00211, T00359, C00052, C00212, T00257, C00298, T00160, T00501, D0106, T00127, C00013, C00030, T00382, C00297, T00259, T00472, D0013, T00302, T00370, D0016, D0115, T00144, T00226, T00349, C00135, C00291, C00286, D0119, T00484, D0063, C00095, T00462, C00177, C00037, T00415, T00281, T00080, T00012, C00202, T00083, T00312, T00278, T00460, T00481, C00094, T00493, C00050, D0054, D0005, T00276, C00057, C00294, C00014, T00440, T00418, D0064, C00260, C00169, T00258, T00368, C00225, T00155, C00183, C00259, C00210, T00098, T00274, C00128, C00040, C00071, C00198, T00256, C00035, D0094, T00007, T00077, D0097, T00022, T00477, T00273, T00325, C00092, C00133, T00171, T00235, C00187, C00201, C00233, T00101, T00037, T00239, C00221, T00301, T00497, T00384, T00457, C00230, D0058, D0007, C00203, C00021, C00254, C00229, T00204, D0091, C00191, C00190, D0062, C00001, T00408, T00492, T00072, T00140, D0046, T00060, C00069, T00290, C00289, C00080, T00195, T00070, T00052, T00017, T00503, C00045, C00107, C00281, T00305, T00478, C00235, T00332, T00333, T00118, D0086, T00488, D0053, T00378, D0011, T00314, C00061, T00104, T00075, T00476, T00265, T00260, D0008, C00148, T00389, C00236, T00231, T00369, C00276, T00398, T00394, C00268, C00275, C00231, D0095, T00284, C00047, C00113, C00091, C00296, T00336, T00445, C00012, D0031, T00315, C00208, T00393, C00089, T00121, T00073, C00157, T00351, T00404, T00192, T00292, D0018, C00265, T00130, T00392, T00057, T00165, T00006, C00130, T00316, C00280, T00161, C00293, C00108, C00172, T00163, T00237, T00455, T00502, T00039, D0083, T00135, T00069, T00357, C00174, C00253, T00051, C00077, D0059, T00045, T00308, C00004, T00324, T00402, C00168, T00469, C00222, T00085, T00326, C00299, C00134, T00485, T00341, C00059, D0048, T00473, T00009, T00243, D0025, T00373, T00159, C00110, T00031, T00043, C00046, T00405, D0060, T00028, T00234, D0061, T00409, C00194, C00209, C00053, C00084, D0085, C00098, C00106, C00055, D0003, D0104, T00288, T00182, C00252, C00269, D0045, T00019, C00041, C00228, T00196, T00014, C00214, T00345, T00268, T00433, T00363, T00248, T00128, C00064, D0107, T00150, C00197, D0009, T00221, C00131, C00264, T00133, D0029, T00381, C00102, C00243, T00390, C00074, T00371, T00449, T00136, C00009, C00152, C00271, C00043, C00025, T00099, T00245, T00283, C00132, D0092, T00498, C00249, T00293, C00034, C00145, T00494, D0099, D0036, T00285, T00282, C00220, T00089, T00362, D0006, T00129, T00427, T00367, T00255, T00364, T00322, T00106, C00204, T00053, T00005, D0032, C00153, C00287, T00432, D0118, C00193, T00358, T00464, C00175, T00222, T00413, T00217, T00330, D0070, C00205, T00232, T00343, T00199, T00214, C00170, T00050, T00181, T00297, C00054, T00287, C00062, T00078, T00177, T00213, C00188, T00430, D0093, T00038, T00372, T00046, T00505, T00280, T00306, T00471, C00207, D0015, C00242, T00495, C00279, T00407, T00170, T00380, C00109, T00307, C00088, C00211, T00200, D0079, C00139, T00203, T00323, T00347, T00446, C00226, C00240, T00319, C00039, T00269, C00111, T00103, T00327, D0120, C00161, T00120, T00228, C00147, T00295, T00475, D0114, C00118, T00082, T00303, C00290, T00026, T00422, T00240, T00444, T00242, D0034, D0080, D0113, D0117, C00206, D0089, T00252, T00490, C00200, T00474, T00074, T00018, C00101, T00420, D0073, D0038, C00017, T00218, C00138, T00071, T00451, C00060, T00205, D0098, T00262, C00066, D0081, C00036, D0052, C00154, T00036, T00115, T00425, D0108, D0047, C00216, T00479, T00356, C00121, C00278, D0111, T00049, C00142, C00006, T00403, T00375, T00151, T00264, C00082, T00215, C00090, T00376, T00095, T00350, T00452, D0044, C00218, D0033, T00141, C00112, T00166, T00180, D0084, T00145, T00167, T00487, C00049, T00126, T00386, C00272, T00008, D0012, C00086, D0020, C00213, T00437, T00504, T00344, C00171, C00028, C00093, C00085, T00035, C00217, C00258, T00456, C00008, C00031, T00004, T00193, D0088, T00176, T00328, D0014, D0022, C00189, T00157, T00270, T00491, C00234, C00285, T00122, T00229, C00022, C00137, T00168, T00342, T00419, T00016, C00184, C00232, T00067, D0028, D0075, C00185, T00123, D0010, C00058, C00192, T00352, C00143, T00184, T00169, T00227, T00463, T00486, D0037, C00104, T00076, T00289, T00348, D0049, T00048, C00051, T00450, C00076, C00300, T00219, T00426, T00146, T00304, T00396, C00129, T00094, D0109, T00209, T00062, T00033, T00438, C00219, T00002, T00447, C00044, T00412, C00164, T00310, T00309, T00156, T00291, T00254, T00230, T00387, T00417, T00251, T00454, T00117, T00459, C00176, C00002, T00339, D0021, T00249, D0050, T00054, T00385, D0101, C00120, C00144, C00257, T00112, T00346, T00064, T00093, C00068, T00189, C00096, C00042, T00331, T00015, T00275, C00026, C00263, D0105, D0112, T00100, D0103, T00429, C00270, T00496, T00023, T00395, T00244, T00416, C00162, T00068, C00126, T00334, T00034, T00355, C00019, T00379, T00001, T00040, C00250, C00125, T00421, T00212, C00117, T00174, T00374, C00087, T00187, T00337, D0004, C00018, T00313, D0023, T00003, D0069, T00299, T00198, C00010, D0116, T00153, T00253, D0078, T00011, T00056, T00063, C00081, C00179, C00097, C00016, C00150, C00023, T00216, T00224, T00238, T00042, C00027, T00172, T00225, D0040, C00075, C00038, T00298, D0065, T00320, C00122, T00032, T00466, T00266, T00353, C00136, T00400, C00238, C00255, C00262, C00011, C00274, C00033, C00123, C00181, T00272, T00116, T00391, T00458, D0024, D0026, C00079, T00109, C00127, T00044, T00406, C00156, C00256, C00067, C00180, T00267, T00142, C00248, C00277, T00131, T00247, T00190, T00435, T00025, T00428, D0030, T00079, T00111, T00321, T00442, T00294, C00282, T00105, C00165, C00223, T00149, T00443, T00300, C00116, C00246, T00148, C00292, C00003, C00239, T00480, T00154, T00081, T00340, D0072, T00061, C00103, T00147, T00186, T00261, D0055, D0035, T00097, T00286, D0041, T00500, T00027, T00365, D0042, T00020, T00271, T00138, D0057, C00146, C00227, C00237, T00059, T00354, C00273, T00431, T00436, C00186, D0074, T00024, D0043, C00159, T00194, T00411, C00284, T00030, T00206, T00399, T00263, T00058, T00134, T00201, D0077, D0002, T00188, T00483, C00029, C00167, T00423, D0110, T00132, C00063, T00277, C00178, T00158, D0019, C00114, T00092, T00279, D0087, T00489, T00223, C00024, T00088, C00199, C00244, T00137, C00196, T00499, T00434, T00377, T00439, T00110, T00388, D0017, D0096, T00087, T00173, C00100, T00506, T00191, T00360, T00470, D0001, T00335, C00160, T00055, C00072, C00283, D0071, T00467, C00099, C00224, T00013, T00107, T00233, T00482, T00250, T00311, C00083, C00241, T00178, T00208, C00015, C00155, C00215, C00105, T00210, T00152, T00383, D0067, T00162, T00114, C00261, C00182, T00108, D0039, T00113, C00251, C00151, D0056, C00078, C00115, C00119, T00066, T00084, T00453, C00247, T00338, C00065, T00202, T00401, C00149, T00086, T00143, D0076, T00246, T00220, C00158, T00197, T00125, T00185, C00140, T00207, T00029, T00366, T00397, T00448, C00163, D0051, T00461, C00124, D0082, T00318, C00266, T00047, C00020, T00183, D0102</p>
+
+    <h2>Destination Accounts / Entities</h2>
+    <p>IMEI_P0004, IMEI_P0044, IMEI_P0093, CF007, CF025, IMEI_P0022, IMEI_P0011, IMEI_P0067, IMEI_P0085, IMEI_P0111, IMEI_P0018, IMEI_P0014, IMEI_P0015, IMEI_P0069, IMEI_P0007, IMEI_P0055, IMEI_P0009, IMEI_P0038, IMEI_P0052, IMEI_P0115, IMEI_P0083, IMEI_P0086, IMEI_P0075, IMEI_P0078, CF006, IMEI_P0092, IMEI_P0108, IMEI_P0046, IMEI_P0103, CF009, IMEI_P0118, IMEI_P0080, IMEI_P0071, IMEI_P0029, IMEI_P0096, IMEI_P0024, IMEI_P0079, IMEI_P0094, CF035, CF017, IMEI_P0013, CF011, IMEI_P0062, CF003, CF036, IMEI_P0091, IMEI_P0035, IMEI_P0081, CF010, CF038, IMEI_P0032, CF016, CF004, IMEI_P0017, IMEI_P0028, IMEI_P0050, CF032, CF008, CF020, IMEI_P0120, IMEI_P0066, IMEI_P0101, IMEI_P0090, IMEI_P0114, IMEI_P0010, IMEI_P0107, IMEI_P0087, IMEI_P0113, IMEI_P0039, IMEI_P0076, IMEI_P0054, IMEI_P0064, IMEI_P0059, IMEI_P0023, CF039, CF023, CF001, IMEI_P0095, IMEI_P0109, CF018, IMEI_P0040, IMEI_P0104, IMEI_P0112, IMEI_P0016, IMEI_P0001, IMEI_P0003, CF014, IMEI_P0006, IMEI_P0019, CF021, IMEI_P0057, CF022, CF027, IMEI_P0021, IMEI_P0031, IMEI_P0110, CF033, IMEI_P0026, IMEI_P0042, CF012, CF040, IMEI_P0099, IMEI_P0034, CF015, IMEI_P0045, IMEI_P0051, IMEI_P0100, CF029, CF037, IMEI_P0074, IMEI_P0070, IMEI_P0049, IMEI_P0119, IMEI_P0089, IMEI_P0043, IMEI_P0073, IMEI_P0082, IMEI_P0102, IMEI_P0065, CF019, CF002, CF026, IMEI_P0036, CF024, IMEI_P0048, IMEI_P0033, IMEI_P0106, CF013, IMEI_P0068, IMEI_P0053, IMEI_P0077, IMEI_P0097, IMEI_P0098, CF028, IMEI_P0116, IMEI_P0012, IMEI_P0041, IMEI_P0025, CF030, IMEI_P0060, IMEI_P0047, IMEI_P0088, IMEI_P0020, CF031, IMEI_P0058, IMEI_P0105, CF005, IMEI_P0005, IMEI_P0117, CF034, IMEI_P0002, IMEI_P0008, IMEI_P0061, IMEI_P0063, IMEI_P0072, IMEI_P0084, IMEI_P0027, IMEI_P0030, IMEI_P0056, IMEI_P0037</p>
+
+    <h2>Affected Network Flows & Financial Transfers</h2>
+    <table>
+        <tr>
+            <th>Source Entity</th>
+            <th>Destination Entity</th>
+            <th>Protocol / Channel</th>
+            <th>Transactions</th>
+            <th>Amount (Rs.)</th>
+        </tr>
+        
+            <tr>
+                <td>T00001</td>
+                <td>CF010</td>
+                <td>UPI / TCP</td>
+                <td>1</td>
+                <td>45000</td>
+            </tr>
+            
+            <tr>
+                <td>T00002</td>
+                <td>CF014</td>
+                <td>UPI / TCP</td>
+                <td>1</td>
+                <td>250000</td>
+            </tr>
+            
+            <tr>
+                <td>T00003</td>
+                <td>CF007</td>
+                <td>UPI / TCP</td>
+                <td>1</td>
+                <td>5000</td>
+            </tr>
+            
+            <tr>
+                <td>T00004</td>
+                <td>CF004</td>
+                <td>UPI / TCP</td>
+                <td>1</td>
+                <td>7500</td>
+            </tr>
+            
+            <tr>
+                <td>T00005</td>
+                <td>CF036</td>
+                <td>UPI / TCP</td>
+                <td>1</td>
+                <td>125000</td>
+            </tr>
+            
+            <tr>
+                <td>T00006</td>
+                <td>CF019</td>
+                <td>UPI / TCP</td>
+                <td>1</td>
+                <td>7500</td>
+            </tr>
+            
+            <tr>
+                <td>T00007</td>
+                <td>CF003</td>
+                <td>UPI / TCP</td>
+                <td>1</td>
+                <td>12000</td>
+            </tr>
+            
+            <tr>
+                <td>T00008</td>
+                <td>CF032</td>
+                <td>UPI / TCP</td>
+                <td>1</td>
+                <td>25000</td>
+            </tr>
+            
+            <tr>
+                <td>T00009</td>
+                <td>CF019</td>
+                <td>UPI / TCP</td>
+                <td>1</td>
+                <td>12000</td>
+            </tr>
+            
+            <tr>
+                <td>T00010</td>
+                <td>CF013</td>
+                <td>UPI / TCP</td>
+                <td>1</td>
+                <td>125000</td>
+            </tr>
+            
+            <tr>
+                <td>T00011</td>
+                <td>CF001</td>
+                <td>UPI / TCP</td>
+                <td>1</td>
+                <td>18000</td>
+            </tr>
+            
+            <tr>
+                <td>T00012</td>
+                <td>CF033</td>
+                <td>UPI / TCP</td>
+                <td>1</td>
+                <td>12000</td>
+            </tr>
+            
+            <tr>
+                <td>T00013</td>
+                <td>CF016</td>
+                <td>UPI / TCP</td>
+                <td>1</td>
+                <td>25000</td>
+            </tr>
+            
+            <tr>
+                <td>T00014</td>
+                <td>CF037</td>
+                <td>UPI / TCP</td>
+                <td>1</td>
+                <td>18000</td>
+            </tr>
+            
+            <tr>
+                <td>T00015</td>
+                <td>CF020</td>
+                <td>UPI / TCP</td>
+                <td>1</td>
+                <td>25000</td>
+            </tr>
+            
+    </table>
+
+    <h2>Evidence & Statutory Directives</h2>
+    <h3>INC-SIMSWAP-01 — Centrality & Hardware Evidence</h3>
+    <pre>[
+  {
+    'kingpin_id': 'CF007',
+    'kingpin_name': 'Accused Entity (CF007)',
+    'betweenness_score': 0.84,
+    'mules': ['CF002', 'CF034', 'CF032', 'CF021', 'CF025'],
+    'statutory_actions': [
+      'Issue Sec 102 CrPC Bank Account Lien Notice',
+      'Issue Sec 91 CrPC Telco CDR/SDR Demand Notice',
+      'Block IMEI Hardware Signatures on CEIR Portal'
+    ]
+  }
+]</pre>
+
+    <h2>Recommended Analyst & Legal Actions</h2>
+    <ul>
+        <li>Issue emergency Sec 102 CrPC directives to Nodal Banks to freeze target Kingpin (CF007) and Mule accounts (CF002, CF034, CF032, CF021, CF025).</li>
+        <li>Serve Section 91 CrPC notices to Telecom Service Providers (TSPs) for CDR and SDR logs.</li>
+        <li>Preserve all listed transaction flow records, cell tower locations, and supporting JSON telemetry.</li>
+        <li>Register formal FIR under IT Act 2000 (Sec 66C, 66D) read with IPC 1860 (Sec 420, 120B).</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,73 @@
+# =============================================================================
+# HACKATHON SUBMISSION METADATA
+# =============================================================================
+# Instructions:
+#   - Fill in ALL required fields (marked with # REQUIRED)
+#   - Optional fields can be left as empty strings ""
+#   - Do NOT rename this file — the evaluation pipeline reads it by name
+#   - Use double quotes around all string values
+# =============================================================================
+
+team:
+  name: ""                             # REQUIRED — TODO: your team name
+  track: "AI"                          # REQUIRED — one of: AI | DevOps | Sustainability | Open
+  lead:
+    name: ""                           # REQUIRED — TODO
+    email: ""                          # REQUIRED — TODO
+  members:
+    - name: ""                         # TODO
+      email: ""
+    - name: ""
+      email: ""
+
+submission:
+  title: "Cyber-Tracer Pro — Cyber Fraud Network Analyzer"
+
+  problem_statement: >
+    Cyber-crime cells investigating SIM-swap and OTP-vishing fraud receive evidence as
+    scattered bank transactions, call records, device/IMEI lists and free-text field reports,
+    and must cross-reference them by hand to find the coordinator and mule accounts — too slow
+    to freeze funds before they are layered and cashed out.
+
+  solution_summary: >
+    Cyber-Tracer Pro ingests case files, uses an LLM to extract entities and relationships from
+    unstructured intel, fuses all sources into one fraud-network graph, ranks the kingpin and
+    mule accounts by graph centrality, and produces an interactive graph, a geospatial trace and
+    an auto-generated FIR case brief PDF in a single Streamlit console.
+
+  key_features:
+    - "LLM extraction of entities/relationships from unstructured field intel (Groq Llama models with fallback chain)"
+    - "Multi-source fraud graph (transactions, shared IMEIs, call logs) with betweenness/in-degree kingpin and mule ranking"
+    - "Interactive PyVis network visualisation with role-based colouring and amount-weighted edges"
+    - "India geospatial trace and suspect inspector with in/out flow volumes and transaction timeline"
+    - "One-click statutory FIR case brief PDF and JSON entity export"
+
+  tech_stack:
+    languages: ["Python"]
+    frameworks: ["Streamlit", "NetworkX", "PyVis", "Plotly", "Pandas", "ReportLab"]
+    ibm_technologies: []               # TODO — e.g. ["IBM Bob"] if used
+    databases: []
+    other: ["Groq API (Llama 3.3 70B)"]
+
+  what_we_are_most_proud_of: >
+    The end-to-end pipeline: one click turns raw, multi-source evidence into a ranked suspect
+    list, an explorable network graph and a ready-to-file FIR brief. The schema-tolerant graph
+    fusion in graph_builder.py and the generated report in report_generator.py are the core.
+
+  known_limitations: >
+    All data is synthetic (modelled on public I4C/NCRP fraud typologies). Geospatial routes are
+    illustrative (hash-assigned locations, not real CDR/tower data). Kingpin detection is a
+    centrality heuristic, not a trained model. No authentication or per-case workspaces.
+
+# =============================================================================
+# ARTIFACT LOCATIONS
+# These paths are relative to the repo root. Only change if you moved files.
+# =============================================================================
+artifacts:
+  source_code: "src/"
+  setup_guide: "docs/setup-guide.md"
+  architecture_doc: "docs/architecture.md"
+  demo_video: "demo/demo-video-link.txt"   # URL to hosted video (YouTube, Loom, Box)
+  live_demo: "demo/live-demo-url.txt"      # URL to deployed demo (optional)
+  screenshots: "demo/screenshots/"
+  presentation: "presentation/"

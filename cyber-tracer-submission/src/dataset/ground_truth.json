@@ -1,0 +1,18 @@
+{
+  "kingpin": {"account_id": "KP-5021001209", "name": "Vikas Mahato"},
+  "mules": [
+    {"account_id": "M-7743210056", "name": "Sanjay Mandal", "victim_count": 4, "total_collected": 186000},
+    {"account_id": "M-6612345098", "name": "Birendra Oraon", "victim_count": 4, "total_collected": 181000},
+    {"account_id": "M-8823401177", "name": "Kavita Devi", "victim_count": 4, "total_collected": 219000},
+    {"account_id": "M-9012347765", "name": "Munna Yadav", "victim_count": 3, "total_collected": 155000}
+  ],
+  "victims": ["V-1001","V-1002","V-1003","V-1004","V-1005","V-1006","V-1007","V-1008","V-1009","V-1010","V-1011","V-1012","V-1013","V-1014","V-1015"],
+  "layering_nodes": ["X-CRYPTO-9981", "X-FOREX-4420"],
+  "shared_device_signatures": [
+    {"imei": "356611009988441", "mules_sharing": ["M-7743210056", "M-6612345098"]},
+    {"imei": "359902117766018", "mules_sharing": ["M-8823401177", "M-9012347765"]}
+  ],
+  "kyc_mismatch_flag": {"sim": "916655440023", "sim_registered_name": "Anita Singh", "linked_account_holder": "Munna Yadav"},
+  "noise_entities_should_NOT_be_flagged": ["V-1099 (Pooja Sharma - unrelated relative, one incoming call only, zero transactions)", "911234567890 (unverified wrong-number contact)"],
+  "fraud_pattern_label": "Hierarchical SIM-swap / OTP-vishing mule network with two-hop layering"
+}
