@@ -9,16 +9,16 @@
 # =============================================================================
 
 team:
-  name: ""                             # REQUIRED — TODO: your team name
+  name: "Heuristic Trio"                             # REQUIRED — TODO: your team name
   track: "AI"                          # REQUIRED — one of: AI | DevOps | Sustainability | Open
   lead:
-    name: ""                           # REQUIRED — TODO
-    email: ""                          # REQUIRED — TODO
+    name: "Kaavya Desai"                           # REQUIRED — TODO
+    email: "avanco140@gmail.com"                          # REQUIRED — TODO
   members:
-    - name: ""                         # TODO
-      email: ""
-    - name: ""
-      email: ""
+    - name: "Lil Drashti"                         # TODO
+      email: "drashtilil0403@gmail.com"
+    - name: "Muskan Naurange"
+      email: "muskannaurange234"
 
 submission:
   title: "Cyber-Tracer Pro — Cyber Fraud Network Analyzer"
@@ -45,8 +45,8 @@ submission:
   tech_stack:
     languages: ["Python"]
     frameworks: ["Streamlit", "NetworkX", "PyVis", "Plotly", "Pandas", "ReportLab"]
-    ibm_technologies: []               # TODO — e.g. ["IBM Bob"] if used
-    databases: []
+    ibm_technologies: [IBM-Bob]               # TODO — e.g. ["IBM Bob"] if used
+    databases: [NetworkX]
     other: ["Groq API (Llama 3.3 70B)"]
 
   what_we_are_most_proud_of: >
